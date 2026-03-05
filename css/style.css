@@ -149,13 +149,21 @@ da rimuovere una volta concluso
 
 .riferimento {
 	font-family: 'TikTok Sans';
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 19px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 19px;
 }
 
 .didascalia {
 	margin-left: 10px;
-    font-family: 'TikTok Sans';
+	font-family: 'TikTok Sans';
+}
+
+.sezione-nera {
+	width: 100%;
+	max-width: 512px;
+	height: 80px;
+	background-color: #000;
+	display: flex;
 }
