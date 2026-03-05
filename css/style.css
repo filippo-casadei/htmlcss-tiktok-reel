@@ -167,4 +167,7 @@ da rimuovere una volta concluso
 	background-color: #000;
 	display: flex;
 	color: white;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
 }
