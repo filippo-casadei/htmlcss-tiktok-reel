@@ -102,3 +102,17 @@ da rimuovere una volta concluso
     justify-content: space-between;
     gap: 20px;
 }
+
+.logoboo {
+	width: 20%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.sidebar {
+	display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    top: 20%;
+}
