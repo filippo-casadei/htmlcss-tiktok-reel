@@ -105,15 +105,6 @@ da rimuovere una volta concluso
 	gap: 20px;
 }
 
-/*
-.iconboo {
-	width: 20%;
-    height: 50%;
-    border-radius: 50%;
-    border: 2px solid white;
-}
-	*/
-
 .sidebar-items {
 	display: flex;
 	flex-direction: column;
@@ -183,13 +174,14 @@ da rimuovere una volta concluso
 	font-size: 13px;
 }
 
+.sezione-nera .iconebottom:nth-last-child(3) {
+	border: 2px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0% 20px;
+	border-radius: 10px;
+	border-left: 6px solid #00a2f5;
+	border-right: 6px solid #ff00d6;
 
-    content: "\f64d";
-    border: 2px solid white;
-    height: 35px;
-    width: 62px;
-    text-align: center;
-    border-radius: 10px;
-    border-left: 6px solid #00a2f5;
-    border-right: 6px solid #ff00d6;
-    margin-bottom: 15px;
+}
