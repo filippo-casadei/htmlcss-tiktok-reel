@@ -146,3 +146,16 @@ da rimuovere una volta concluso
 	object-fit: cover;
 	display: block;
 }
+
+.riferimento {
+	font-family: 'TikTok Sans';
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.didascalia {
+	margin-left: 10px;
+    font-family: 'TikTok Sans';
+}
