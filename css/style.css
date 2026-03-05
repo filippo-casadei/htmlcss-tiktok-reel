@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -53,8 +54,8 @@ footer {
 .sidebar {
 	padding: 0 16px;
 	position: absolute;
-	right: -27px;
-	top: 50%;
+	right: -1px;
+	top: 38%;
 	display: flex;
 
 	/* Inserisci qui sotto 
@@ -86,22 +87,22 @@ da rimuovere una volta concluso
 
 .top-bar {
 	display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 16px;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    z-index: 10;
-    color: white;
+	position: absolute;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 16px;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	z-index: 10;
+	color: white;
 }
 
 .menu {
 	display: flex;
-    justify-content: space-between;
-    gap: 20px;
+	justify-content: space-between;
+	gap: 20px;
 }
 
 /*
@@ -115,18 +116,33 @@ da rimuovere una volta concluso
 
 .sidebar-items {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    color: white;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	color: white;
 }
 
 .sidebar-icon {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .logo {
-	
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid white;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
 }
