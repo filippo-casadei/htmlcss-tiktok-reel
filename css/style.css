@@ -53,8 +53,9 @@ footer {
 .sidebar {
 	padding: 0 16px;
 	position: absolute;
-	right: 0;
-	top: 40%;
+	right: -27px;
+	top: 50%;
+	display: flex;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -103,16 +104,25 @@ da rimuovere una volta concluso
     gap: 20px;
 }
 
-.logoboo {
+/*
+.iconboo {
 	width: 20%;
     height: 50%;
     border-radius: 50%;
     border: 2px solid white;
 }
+	*/
 
-.sidebar {
+.sidebar-items {
 	display: flex;
-    position: absolute;
-    justify-content: flex-end;
-    top: 20%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: white;
+}
+
+.sidebar-icon {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
